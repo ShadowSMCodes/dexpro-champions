@@ -37,6 +37,48 @@
 
   <title>DexPro - Champions</title>
   <link rel="manifest" href="manifest.json">
+  <script>
+    window.dexProAnalyticsMeasurementId = 'G-K7HSGJ06BQ';
+
+    (function bootstrapDexProAnalytics() {
+      const measurementId = window.dexProAnalyticsMeasurementId;
+      const isConfigured =
+        typeof measurementId === 'string' &&
+        measurementId.startsWith('G-') &&
+        !measurementId.includes('X');
+
+      window.dexProTrackPageView = function () {};
+
+      if (!isConfigured) {
+        return;
+      }
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+
+      window.gtag = gtag;
+      gtag('js', new Date());
+      gtag('config', measurementId, {
+        anonymize_ip: true,
+        send_page_view: false,
+      });
+
+      window.dexProTrackPageView = function (pagePath, pageTitle) {
+        gtag('event', 'page_view', {
+          page_path: pagePath,
+          page_title: pageTitle,
+          page_location: window.location.origin + pagePath,
+        });
+      };
+
+      const script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+      document.head.appendChild(script);
+    })();
+  </script>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
