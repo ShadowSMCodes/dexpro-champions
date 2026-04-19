@@ -1,7 +1,7 @@
 {
     "name": "Pokemon Champions Dex, Team Builder and Events | DexPro",
     "short_name": "DexPro Champions",
-    "start_url": "/dexpro-champions/",
+    "start_url": "/",
     "display": "standalone",
     "background_color": "#000000",
     "theme_color": "#0F766E",

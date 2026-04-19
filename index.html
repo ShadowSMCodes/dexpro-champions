@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
-  <base href="/dexpro-champions/">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -25,20 +25,20 @@
   <meta name="application-name" content="DexPro - Champions">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <meta name="googlebot" content="index, follow">
-  <link rel="canonical" href="https://shadowsmcodes.github.io/dexpro-champions/">
+  <link rel="canonical" href="https://dexpro-app.com/">
   <meta name="theme-color" content="#0F766E">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="DexPro - Champions">
   <meta property="og:title" content="Pokemon Champions Dex, Team Builder, Moves, Items and Events | DexPro">
   <meta property="og:description" content="DexPro is a free Pokemon Champions database with Pokemon Dex, move dex, item dex, ability dex, type weakness chart, team builder, seasons, mystery gifts, and online competition guides.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://shadowsmcodes.github.io/dexpro-champions/">
-  <meta property="og:image" content="https://shadowsmcodes.github.io/dexpro-champions/icons/Icon-512.png">
+  <meta property="og:url" content="https://dexpro-app.com/">
+  <meta property="og:image" content="https://dexpro-app.com/icons/Icon-512.png">
   <meta property="og:image:alt" content="DexPro Champions logo">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Pokemon Champions Dex and Team Builder | DexPro">
   <meta name="twitter:description" content="Free Pokemon Champions Pokemon Dex, moves, items, abilities, weakness chart, team builder, seasons, mystery gifts, and competition guides.">
-  <meta name="twitter:image" content="https://shadowsmcodes.github.io/dexpro-champions/icons/Icon-512.png">
+  <meta name="twitter:image" content="https://dexpro-app.com/icons/Icon-512.png">
 
   <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
@@ -108,10 +108,14 @@
       font-size: 1.15rem;
     }
 
+    .flutter-booting .seo-content,
     .flutter-loaded .seo-content {
       display: none;
     }
   </style>
+  <script>
+    document.documentElement.classList.add('flutter-booting');
+  </script>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -122,11 +126,11 @@
         "Pokemon Champions Dex",
         "Pokemon Champions Team Builder"
       ],
-      "url": "https://shadowsmcodes.github.io/dexpro-champions/",
+      "url": "https://dexpro-app.com/",
       "applicationCategory": "GameApplication",
       "operatingSystem": "Web",
       "description": "Unofficial Pokemon Champions database and competitive toolkit with Pokemon, move, item and ability dexes, weakness charts, team builder tools, seasons, mystery gifts, and online competition guides.",
-      "image": "https://shadowsmcodes.github.io/dexpro-champions/icons/Icon-512.png",
+      "image": "https://dexpro-app.com/icons/Icon-512.png",
       "creator": {
         "@type": "Organization",
         "name": "DexPro"
@@ -144,7 +148,7 @@
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "DexPro - Champions",
-      "url": "https://shadowsmcodes.github.io/dexpro-champions/",
+      "url": "https://dexpro-app.com/",
       "description": "Unofficial Pokemon Champions tools, dexes, events, and team builder.",
       "inLanguage": "en"
     }
@@ -308,6 +312,7 @@
   <script>
     window.addEventListener('flutter-first-frame', function () {
       document.documentElement.classList.add('flutter-loaded');
+      document.documentElement.classList.remove('flutter-booting');
     });
   </script>
   <script src="flutter_bootstrap.js" async></script>
