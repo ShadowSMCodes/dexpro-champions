@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://champions.dexpro-app.com/sitemap.xml
+Sitemap: https://shadowsmcodes.github.io/dexpro-champions/sitemap.xml
