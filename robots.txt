@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://champions.dexpro-app.com/sitemap.xml
