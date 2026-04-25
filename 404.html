@@ -24,6 +24,16 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script>
+    (function redirectToSpaEntry() {
+      var locationPath =
+          window.location.pathname +
+          window.location.search +
+          window.location.hash;
+      var target = '/?redirect=' + encodeURIComponent(locationPath);
+      window.location.replace(target);
+    })();
+  </script>
   <noscript>
     <main>
       <h1>DexPro - Champions: Pokemon Champions Tools</h1>

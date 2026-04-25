@@ -27,6 +27,7 @@
   <meta name="googlebot" content="index, follow">
   <link rel="canonical" href="https://dexpro-app.com/">
   <meta name="theme-color" content="#0F766E">
+  <meta itemprop="image" content="https://dexpro-app.com/icons/Icon-512.png">
   <meta property="og:locale" content="en_US">
   <meta property="og:site_name" content="DexPro - Champions">
   <meta property="og:title" content="Pokemon Champions Dex, Team Builder, Moves, Items and Events | DexPro">
@@ -45,6 +46,10 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="apple-mobile-web-app-title" content="DexPro - Champions">
   <link rel="apple-touch-icon" href="favicon.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/Icon-192.png">
+  <link rel="icon" type="image/png" sizes="512x512" href="icons/Icon-512.png">
+  <link rel="shortcut icon" href="favicon.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
@@ -116,6 +121,20 @@
   <script>
     document.documentElement.classList.add('flutter-booting');
   </script>
+  <script>
+    (function restoreGithubPagesRedirect() {
+      const currentUrl = new URL(window.location.href);
+      const redirectPath = currentUrl.searchParams.get('redirect');
+
+      if (!redirectPath) {
+        return;
+      }
+
+      currentUrl.searchParams.delete('redirect');
+      const nextUrl = redirectPath + (currentUrl.search ? currentUrl.search : '');
+      window.history.replaceState(null, '', nextUrl);
+    })();
+  </script>
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -150,7 +169,24 @@
       "name": "DexPro - Champions",
       "url": "https://dexpro-app.com/",
       "description": "Unofficial Pokemon Champions tools, dexes, events, and team builder.",
-      "inLanguage": "en"
+      "inLanguage": "en",
+      "publisher": {
+        "@type": "Organization",
+        "name": "DexPro",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://dexpro-app.com/icons/Icon-512.png"
+        }
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "DexPro",
+      "url": "https://dexpro-app.com/",
+      "logo": "https://dexpro-app.com/icons/Icon-512.png"
     }
   </script>
   <script type="application/ld+json">
