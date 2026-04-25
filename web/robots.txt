@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dexpro-app.com/sitemap.xml
