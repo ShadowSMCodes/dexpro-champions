@@ -8008,7 +8008,7 @@ break $label0$0}if(6===a){s=4
 break $label0$0}break $label0$0}return s},
 St(a,b,c,d,e,f,g,h){var s=B.d.ez((b+g+20)*a)*A.b_Y(h)
 if(c)s*=2
-if(d)s*=2
+if(d)s*=1.5
 if(f)s*=2
 return B.d.ez(e?s*0.5:s)},
 alP:function alP(a,b,c,d,e,f){var _=this
@@ -49940,7 +49940,7 @@ $S:26}
 A.azO.prototype={
 $2(a,b){var s,r,q,p,o,n,m=this,l=null,k=m.b,j=k[b],i=J.ba(j),h=m.c.i(0,i.i(j,"pokemonSlug")),g=t.s,f=A.b([],g)
 if(J.d(i.i(j,"hasAbilitySpeedBoost"),!0))f.push("Ability x2")
-if(J.d(i.i(j,"hasChoiceScarf"),!0))f.push("Choice Scarf x2")
+if(J.d(i.i(j,"hasChoiceScarf"),!0))f.push("Choice Scarf x1.5")
 if(J.d(i.i(j,"hasTailwind"),!0))f.push("Tailwind x2")
 if(J.d(i.i(j,"hasParalysis"),!0))f.push("Paralysis x0.5")
 s=i.i(j,"nature")
@@ -50081,18 +50081,18 @@ s.w=s.r=!1}}
 A.iG.prototype={
 I(){return"_SpeedNature."+this.b}}
 A.a0h.prototype={
-A(b2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a="RobotoCondensed",a0="Select a Pok\xe9mon",a1="Choice Scarf",a2="x2 speed",a3="Tailwind",a4="Paralysis",a5="x0.5 speed",a6=A.q(b2),a7=A.de(b2,!0,t.T).b,a8=c.d,a9=a8.a,b0=a9==null,b1=b0?b:a9.b.d.f
-if(b1==null)b1=0
+A(b3){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c=this,b=null,a="RobotoCondensed",a0="Select a Pok\xe9mon",a1="Choice Scarf",a2="x1.5 speed",a3="x2 speed",a4="Tailwind",a5="Paralysis",a6="x0.5 speed",a7=A.q(b3),a8=A.de(b3,!0,t.T).b,a9=c.d,b0=a9.a,b1=b0==null,b2=b1?b:b0.b.d.f
+if(b2==null)b2=0
 s=A.at(24)
 r=c.f
 q=r?B.j4:B.J
 q=A.eM(q,r?3:1.2)
-p=a6.ax
+p=a7.ax
 o=p.k2
 n=p.RG
 m=n==null
 l=A.b([o,(m?o:n).aj(0.26)],t.t_)
-k=a6.ok
+k=a7.ok
 j=k.r
 i=j==null
 h=i?b:j.aX(a,B.Q)
@@ -50100,18 +50100,18 @@ h=A.I(c.c,b,b,b,h,b,b)
 g=A.at(18)
 f=r?B.j4:B.J
 f=A.eM(f,r?2:1)
-if(a7){e=b0?b:a9.gaN(0)
+if(a8){e=b1?b:b0.gaN(0)
 if(e==null)e=a0
-b0=b0?b:a9.ghr()
+b1=b1?b:b0.ghr()
 d=t.p
-d=A.am(A.b([new A.Id(e,new A.aAs(c,b2),b0,b),B.dl,A.am(A.b([A.aC(A.b([A.aa(A.f7(B.qI,B.NG,c.y,b),1),B.eF,A.aa(A.f7(B.qJ,B.t1,c.w,b),1)],d),B.E,B.e,B.n,0,b),B.bU,A.aC(A.b([A.aa(A.f7(B.qK,B.t2,c.x,b),1),B.eF,A.aa(A.f7(B.nO,B.xJ,new A.aAt(c),b),1)],d),B.E,B.e,B.n,0,b)],d),B.E,b,B.e,B.n)],d),B.E,b,B.e,B.n)
-b0=d}else{e=b0?b:a9.gaN(0)
+d=A.am(A.b([new A.Id(e,new A.aAs(c,b3),b1,b),B.dl,A.am(A.b([A.aC(A.b([A.aa(A.f7(B.qI,B.NG,c.y,b),1),B.eF,A.aa(A.f7(B.qJ,B.t1,c.w,b),1)],d),B.E,B.e,B.n,0,b),B.bU,A.aC(A.b([A.aa(A.f7(B.qK,B.t2,c.x,b),1),B.eF,A.aa(A.f7(B.nO,B.xJ,new A.aAt(c),b),1)],d),B.E,B.e,B.n,0,b)],d),B.E,b,B.e,B.n)],d),B.E,b,B.e,B.n)
+b1=d}else{e=b1?b:b0.gaN(0)
 if(e==null)e=a0
-b0=b0?b:a9.ghr()
-b0=A.aC(A.b([A.aa(new A.Id(e,new A.aAu(c,b2),b0,b),1),B.eF,A.f7(B.qI,B.NG,c.y,b),B.eF,A.f7(B.qJ,B.t1,c.w,b),B.eF,A.f7(B.qK,B.t2,c.x,b),B.eF,A.f7(B.nO,B.xJ,new A.aAD(c),b)],t.p),B.E,B.e,B.n,0,b)}g=A.bt(b,b0,B.H,b,new A.bl(b,b,f,g,b,b,B.ar),b,b,B.kG,b)
+b1=b1?b:b0.ghr()
+b1=A.aC(A.b([A.aa(new A.Id(e,new A.aAu(c,b3),b1,b),1),B.eF,A.f7(B.qI,B.NG,c.y,b),B.eF,A.f7(B.qJ,B.t1,c.w,b),B.eF,A.f7(B.qK,B.t2,c.x,b),B.eF,A.f7(B.nO,B.xJ,new A.aAD(c),b)],t.p),B.E,B.e,B.n,0,b)}g=A.bt(b,b1,B.H,b,new A.bl(b,b,f,g,b,b,B.ar),b,b,B.kG,b)
 f=A.at(16)
-b0=r?B.j4.aj(0.85):B.J
-b0=A.eM(b0,r?2:1)
+b1=r?B.j4.aj(0.85):B.J
+b1=A.eM(b1,r?2:1)
 if(r)o=B.j4.aj(0.08)
 else o=(m?o:n).aj(0.16)
 n=k.x
@@ -50128,24 +50128,24 @@ p=n.bA(m==null?p.k3:m,a)}p=A.aa(A.I("Base Speed",b,b,b,p,b,b),1)
 n=k.w
 m=n==null
 e=m?b:n.aX(a,B.aw)
-e=A.b([j,B.bU,A.aC(A.b([p,A.I(""+b1,b,b,b,e,b,b)],i),B.E,B.e,B.n,0,b)],i)
+e=A.b([j,B.bU,A.aC(A.b([p,A.I(""+b2,b,b,b,e,b,b)],i),B.E,B.e,B.n,0,b)],i)
 if(r){r=k.as
-B.b.N(e,A.b([B.bU,new A.cF(B.iv,b,b,A.I("Wins Speed Check",b,b,b,r==null?b:r.cU(B.j4,a,B.Q),b,b),b)],i))}b0=A.bt(b,A.am(e,B.E,b,B.e,B.n),B.H,b,new A.bl(o,b,b0,f,b,b,B.ar),b,b,B.U5,b)
+B.b.N(e,A.b([B.bU,new A.cF(B.iv,b,b,A.I("Wins Speed Check",b,b,b,r==null?b:r.cU(B.j4,a,B.Q),b,b),b)],i))}b1=A.bt(b,A.am(e,B.E,b,B.e,B.n),B.H,b,new A.bl(o,b,b1,f,b,b,B.ar),b,b,B.U5,b)
 r=A.I("Speed Nature",b,b,b,m?b:n.aX(a,B.aw),b,b)
 p=t.D0
-p=A.S(new A.L(B.Cj,new A.aAE(c,a6),p),p.h("an.E"))
+p=A.S(new A.L(B.Cj,new A.aAE(c,a7),p),p.h("an.E"))
 p.$flags=1
-b0=A.b([h,B.fG,g,B.fG,b0,B.cT,r,B.bU,A.fy(B.e0,p,B.fs,10,10),B.cT,A.aC(A.b([A.Bt(!1,B.agH,B.H,b,b,b,b,b,new A.aAF(c),b,b),B.d1,A.aa(A.aPW(32,B.a_o,32,0,new A.aAG(c),"Speed SPs",a8.c),1),B.d1,A.Bt(!1,B.agM,B.H,b,b,b,b,b,new A.aAH(c),b,b)],i),B.E,B.e,B.n,0,b),B.cd],i)
-r=a8.e
-p=a8.d
-if(a7)b0.push(A.am(A.b([A.aC(A.b([A.aa(new A.kg(a1,a2,r,new A.aAI(c),b),1),A.aa(new A.kg("Ability",a2,p,new A.aAJ(c),b),1)],i),B.N,B.e,B.n,0,b),A.aC(A.b([A.aa(new A.kg(a3,a2,a8.r,new A.aAK(c),b),1),A.aa(new A.kg(a4,a5,a8.w,new A.aAv(c),b),1)],i),B.N,B.e,B.n,0,b)],i),B.E,b,B.e,B.n))
-else b0.push(A.aC(A.b([A.aa(new A.kg(a1,a2,r,new A.aAw(c),b),1),A.aa(new A.kg("Ability",a2,p,new A.aAx(c),b),1),A.aa(new A.kg(a3,a2,a8.r,new A.aAy(c),b),1),A.aa(new A.kg(a4,a5,a8.w,new A.aAz(c),b),1)],i),B.N,B.e,B.n,0,b))
-b0.push(B.cT)
-a8=a8.f
-r=A.Bt(!1,B.agP,B.H,b,b,b,b,b,a8<=-6?b:new A.aAA(c),b,b)
-p=A.aa(A.aPW(12,B.a1W,6,-6,new A.aAB(c),"Speed Stage",a8),1)
-b0.push(A.aC(A.b([r,B.d1,p,B.d1,A.Bt(!1,B.agG,B.H,b,b,b,b,b,a8>=6?b:new A.aAC(c),b,b)],i),B.E,B.e,B.n,0,b))
-return A.bt(b,A.am(b0,B.N,b,B.e,B.n),B.H,b,new A.bl(b,b,q,s,b,new A.h4(B.hU,B.lH,B.fI,l,b,b),B.ar),b,b,B.hW,b)}}
+b1=A.b([h,B.fG,g,B.fG,b1,B.cT,r,B.bU,A.fy(B.e0,p,B.fs,10,10),B.cT,A.aC(A.b([A.Bt(!1,B.agH,B.H,b,b,b,b,b,new A.aAF(c),b,b),B.d1,A.aa(A.aPW(32,B.a_o,32,0,new A.aAG(c),"Speed SPs",a9.c),1),B.d1,A.Bt(!1,B.agM,B.H,b,b,b,b,b,new A.aAH(c),b,b)],i),B.E,B.e,B.n,0,b),B.cd],i)
+r=a9.e
+p=a9.d
+if(a8)b1.push(A.am(A.b([A.aC(A.b([A.aa(new A.kg(a1,a2,r,new A.aAI(c),b),1),A.aa(new A.kg("Ability",a3,p,new A.aAJ(c),b),1)],i),B.N,B.e,B.n,0,b),A.aC(A.b([A.aa(new A.kg(a4,a3,a9.r,new A.aAK(c),b),1),A.aa(new A.kg(a5,a6,a9.w,new A.aAv(c),b),1)],i),B.N,B.e,B.n,0,b)],i),B.E,b,B.e,B.n))
+else b1.push(A.aC(A.b([A.aa(new A.kg(a1,a2,r,new A.aAw(c),b),1),A.aa(new A.kg("Ability",a3,p,new A.aAx(c),b),1),A.aa(new A.kg(a4,a3,a9.r,new A.aAy(c),b),1),A.aa(new A.kg(a5,a6,a9.w,new A.aAz(c),b),1)],i),B.N,B.e,B.n,0,b))
+b1.push(B.cT)
+a9=a9.f
+r=A.Bt(!1,B.agP,B.H,b,b,b,b,b,a9<=-6?b:new A.aAA(c),b,b)
+p=A.aa(A.aPW(12,B.a1W,6,-6,new A.aAB(c),"Speed Stage",a9),1)
+b1.push(A.aC(A.b([r,B.d1,p,B.d1,A.Bt(!1,B.agG,B.H,b,b,b,b,b,a9>=6?b:new A.aAC(c),b,b)],i),B.E,B.e,B.n,0,b))
+return A.bt(b,A.am(b1,B.N,b,B.e,B.n),B.H,b,new A.bl(b,b,q,s,b,new A.h4(B.hU,B.lH,B.fI,l,b,b),B.ar),b,b,B.hW,b)}}
 A.aAs.prototype={
 $0(){var s=0,r=A.W(t.H),q,p=this,o,n
 var $async$$0=A.X(function(a,b){if(a===1)return A.T(b,r)
