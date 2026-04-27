@@ -1,0 +1,244 @@
+{
+  "Venusaurite": {
+    "pokemon": "venusaur",
+    "mega": "venusaur_mega"
+  },
+  "Charizardite X": {
+    "pokemon": "charizard",
+    "mega": "charizard_mega_x"
+  },
+  "Charizardite Y": {
+    "pokemon": "charizard",
+    "mega": "charizard_mega_y"
+  },
+  "Blastoisinite": {
+    "pokemon": "blastoise",
+    "mega": "blastoise_mega"
+  },
+  "Beedrillite": {
+    "pokemon": "beedrill",
+    "mega": "beedrill_mega"
+  },
+  "Pidgeotite": {
+    "pokemon": "pidgeot",
+    "mega": "pidgeot_mega"
+  },
+  "Clefablite": {
+    "pokemon": "clefable",
+    "mega": "clefable_mega"
+  },
+  "Alakazite": {
+    "pokemon": "alakazam",
+    "mega": "alakazam_mega"
+  },
+  "Victreebelite": {
+    "pokemon": "victreebel",
+    "mega": "victreebel_mega"
+  },
+  "Slowbronite": {
+    "pokemon": "slowbro",
+    "mega": "slowbro_mega"
+  },
+  "Gengarite": {
+    "pokemon": "gengar",
+    "mega": "gengar_mega"
+  },
+  "Kangaskhanite": {
+    "pokemon": "kangaskhan",
+    "mega": "kangaskhan_mega"
+  },
+  "Starminite": {
+    "pokemon": "starmie",
+    "mega": "starmie_mega"
+  },
+  "Pinsirite": {
+    "pokemon": "pinsir",
+    "mega": "pinsir_mega"
+  },
+  "Gyaradosite": {
+    "pokemon": "gyarados",
+    "mega": "gyarados_mega"
+  },
+  "Aerodactylite": {
+    "pokemon": "aerodactyl",
+    "mega": "aerodactyl_mega"
+  },
+  "Dragoninite": {
+    "pokemon": "dragonite",
+    "mega": "dragonite_mega"
+  },
+  "Meganiumite": {
+    "pokemon": "meganium",
+    "mega": "meganium_mega"
+  },
+  "Feraligite": {
+    "pokemon": "feraligatr",
+    "mega": "feraligatr_mega"
+  },
+  "Ampharosite": {
+    "pokemon": "ampharos",
+    "mega": "ampharos_mega"
+  },
+  "Steelixite": {
+    "pokemon": "steelix",
+    "mega": "steelix_mega"
+  },
+  "Scizorite": {
+    "pokemon": "scizor",
+    "mega": "scizor_mega"
+  },
+  "Heracronite": {
+    "pokemon": "heracross",
+    "mega": "heracross_mega"
+  },
+  "Skarmorite": {
+    "pokemon": "skarmory",
+    "mega": "skarmory_mega"
+  },
+  "Houndoominite": {
+    "pokemon": "houndoom",
+    "mega": "houndoom_mega"
+  },
+  "Tyranitarite": {
+    "pokemon": "tyranitar",
+    "mega": "tyranitar_mega"
+  },
+  "Gardevoirite": {
+    "pokemon": "gardevoir",
+    "mega": "gardevoir_mega"
+  },
+  "Sablenite": {
+    "pokemon": "sableye",
+    "mega": "sableye_mega"
+  },
+  "Aggronite": {
+    "pokemon": "aggron",
+    "mega": "aggron_mega"
+  },
+  "Medichamite": {
+    "pokemon": "medicham",
+    "mega": "medicham_mega"
+  },
+  "Manectite": {
+    "pokemon": "manectric",
+    "mega": "manectric_mega"
+  },
+  "Sharpedonite": {
+    "pokemon": "sharpedo",
+    "mega": "sharpedo_mega"
+  },
+  "Cameruptite": {
+    "pokemon": "camerupt",
+    "mega": "camerupt_mega"
+  },
+  "Altarianite": {
+    "pokemon": "altaria",
+    "mega": "altaria_mega"
+  },
+  "Banettite": {
+    "pokemon": "banette",
+    "mega": "banette_mega"
+  },
+  "Chimechite": {
+    "pokemon": "chimecho",
+    "mega": "chimecho_mega"
+  },
+  "Absolite": {
+    "pokemon": "absol",
+    "mega": "absol_mega"
+  },
+  "Glalitite": {
+    "pokemon": "glalie",
+    "mega": "glalie_mega"
+  },
+  "Lopunnite": {
+    "pokemon": "lopunny",
+    "mega": "lopunny_mega"
+  },
+  "Garchompite": {
+    "pokemon": "garchomp",
+    "mega": "garchomp_mega"
+  },
+  "Lucarionite": {
+    "pokemon": "lucario",
+    "mega": "lucario_mega"
+  },
+  "Abomasite": {
+    "pokemon": "abomasnow",
+    "mega": "abomasnow_mega"
+  },
+  "Galladite": {
+    "pokemon": "gallade",
+    "mega": "gallade_mega"
+  },
+  "Froslassite": {
+    "pokemon": "froslass",
+    "mega": "froslass_mega"
+  },
+  "Emboarite": {
+    "pokemon": "emboar",
+    "mega": "emboar_mega"
+  },
+  "Excadrite": {
+    "pokemon": "excadrill",
+    "mega": "excadrill_mega"
+  },
+  "Audinite": {
+    "pokemon": "audino",
+    "mega": "audino_mega"
+  },
+  "Chandelurite": {
+    "pokemon": "chandelure",
+    "mega": "chandelure_mega"
+  },
+  "Golurkite": {
+    "pokemon": "golurk",
+    "mega": "golurk_mega"
+  },
+  "Chesnaughtite": {
+    "pokemon": "chesnaught",
+    "mega": "chesnaught_mega"
+  },
+  "Delphoxite": {
+    "pokemon": "delphox",
+    "mega": "delphox_mega"
+  },
+  "Greninjite": {
+    "pokemon": "greninja",
+    "mega": "greninja_mega"
+  },
+  "Floettite": {
+    "pokemon": "floette (Eternal)",
+    "mega": "floette (Eternal)_mega"
+  },
+  "Meowsticite": [
+    {
+      "pokemon": "meowstic",
+      "mega": "meowstic_mega"
+    },
+    {
+      "pokemon": "meowstic (Female)",
+      "mega": "meowstic (Female)_mega"
+    }
+  ],
+  "Hawluchanite": {
+    "pokemon": "hawlucha",
+    "mega": "hawlucha_mega"
+  },
+  "Crabominite": {
+    "pokemon": "crabominable",
+    "mega": "crabominable_mega"
+  },
+  "Drampanite": {
+    "pokemon": "drampa",
+    "mega": "drampa_mega"
+  },
+  "Scovillainite": {
+    "pokemon": "scovillain",
+    "mega": "scovillain_mega"
+  },
+  "Glimmoranite": {
+    "pokemon": "glimmora",
+    "mega": "glimmora_mega"
+  }
+}
